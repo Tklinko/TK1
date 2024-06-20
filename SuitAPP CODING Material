@@ -1,0 +1,17 @@
+package tech.stackable.hadoop;
+
+import static tech.stackable.hadoop.StackableGroupMapper.OPA_MAPPING_URL_PROP;
+
+import java.net.URI;
+import java.net.http.HttpResponse;
+
+import static tech.stackable.hadoop.StackableGroupMapper.OPA_MAPPING_URL_PROP;
+
+public abstract class OpaException extends RuntimeException {
+
+    public OpaException(String message, Throwable cause) {
+        super(message, cause);
+    }
+  public OpaException(String message, Throwable cause) {
+    super(message, cause);
+  }
